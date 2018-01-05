@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/Mehonoshin/trailblazer-operation.git
+  revision: 32e612cea1b6146350eb95ccf85f124e4888c283
+  branch: issue-22-fix
+  specs:
+    trailblazer-operation (0.0.12)
+      declarative
+      pipetree (>= 0.1.1, < 0.2.0)
+      uber
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -217,10 +227,6 @@ GEM
     trailblazer-cells (0.0.3)
       cells (>= 4.1.0.rc1, < 5.0.0)
     trailblazer-loader (0.1.2)
-    trailblazer-operation (0.0.13)
-      declarative
-      pipetree (>= 0.1.1, < 0.2.0)
-      uber
     trailblazer-rails (1.0.4)
       reform-rails (>= 0.1.4, < 0.2.0)
       trailblazer (>= 2.0.0, < 2.1.0)
@@ -264,6 +270,7 @@ DEPENDENCIES
   sqlite3
   trailblazer (>= 2.0.3)
   trailblazer-cells
+  trailblazer-operation!
   trailblazer-rails
   turbolinks (~> 5)
   tzinfo-data

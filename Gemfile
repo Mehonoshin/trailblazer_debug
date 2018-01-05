@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'dry-validation'
 
 gem 'trailblazer', '>= 2.0.3'
-#gem 'trailblazer-operation', path: '~/p/trailblazer-operation'
+gem 'trailblazer-operation', github: 'Mehonoshin/trailblazer-operation', branch: 'issue-22-fix'#, path: '~/p/trailblazer-operation'
 gem 'trailblazer-rails'#, path: '~/p/trailblazer-rails'
 #gem 'trailblazer-loader', path: '~/p/trailblazer-loader'
 gem 'trailblazer-cells'
